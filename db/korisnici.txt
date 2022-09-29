@@ -1,0 +1,369 @@
+/* 1 */
+{
+    "_id" : ObjectId("613610a2a90808ea0ca0788c"),
+    "username" : "vodjapetar",
+    "password" : "Vodja12#$",
+    "ime" : "Petar",
+    "prezime" : "Petrovic",
+    "nacionalnost" : "SRB",
+    "email" : "petar@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "takmicenja" : [],
+    "brTakmicenja" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6137522fa90808ea0ca07fb1"),
+    "username" : "vodjajan",
+    "password" : "Vodja12#$",
+    "ime" : "JAN",
+    "prezime" : "Veselý",
+    "nacionalnost" : "CZE",
+    "email" : "jan@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "takmicenja" : [],
+    "brTakmicenja" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61375368a90808ea0ca08019"),
+    "username" : "vodjatakeda",
+    "password" : "Vodja12#$",
+    "ime" : "Takeda",
+    "prezime" : "Toshihiro",
+    "nacionalnost" : "JPN",
+    "email" : "takeda@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "takmicenja" : [],
+    "brTakmicenja" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6137560ea90808ea0ca080f0"),
+    "username" : "delegatzoran",
+    "password" : "Delegat12#$",
+    "ime" : "Zoran",
+    "prezime" : "Zoranovic",
+    "nacionalnost" : "SRB",
+    "email" : "zoran@gmail.com",
+    "tip" : "delegat",
+    "aktivan" : 1,
+    "takmicenja" : [ 
+        "100m trcanje zene stadion tokyo 3 runde", 
+        "maraton zene stadion tokyo 1 trka", 
+        "maraton muskarci stadion tokyo 3 runde"
+    ],
+    "brTakmicenja" : 3
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6137580aa90808ea0ca0818c"),
+    "username" : "delegatmakoto",
+    "password" : "Delegat12#$",
+    "ime" : "Makoto",
+    "prezime" : "Nagano",
+    "nacionalnost" : "JPN",
+    "email" : "Makoto@gmail.com",
+    "tip" : "delegat",
+    "aktivan" : 1,
+    "takmicenja" : [ 
+        "streljastvo 50m trostav muskarci stadion tokyo 6 runde", 
+        "tenis singl zene station saporo 4 igraca"
+    ],
+    "brTakmicenja" : 2
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("61375888a90808ea0ca081c6"),
+    "username" : "delegatmartin",
+    "password" : "Delegat12#$",
+    "ime" : "Martin",
+    "prezime" : "Novák",
+    "nacionalnost" : "CZE",
+    "email" : "martin@gmail.com",
+    "tip" : "delegat",
+    "aktivan" : 1,
+    "takmicenja" : [],
+    "brTakmicenja" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6138f07ea90808ea0ca088c3"),
+    "username" : "aiorganizator",
+    "password" : "Organiz12#$",
+    "ime" : "Ai",
+    "prezime" : "Tanaka",
+    "nacionalnost" : "JPN",
+    "email" : "ai@gmail.com",
+    "tip" : "organizator",
+    "aktivan" : 1,
+    "takmicenja" : [],
+    "brTakmicenja" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6148ed551b5bc634a454b955"),
+    "takmicenja" : [],
+    "username" : "australijavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Aus",
+    "prezime" : "Tralija",
+    "nacionalnost" : "AUS",
+    "email" : "aus@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6148ee431b5bc634a454b964"),
+    "takmicenja" : [],
+    "username" : "brazilvodja",
+    "password" : "Vodja12#$",
+    "ime" : "Bra",
+    "prezime" : "Zil",
+    "nacionalnost" : "BRA",
+    "email" : "brazil@gmai.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6148ee6c1b5bc634a454b96e"),
+    "takmicenja" : [],
+    "username" : "kanadavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Kan",
+    "prezime" : "Ada",
+    "nacionalnost" : "CAN",
+    "email" : "kanada@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6148eede1b5bc634a454b992"),
+    "takmicenja" : [],
+    "username" : "kinavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Ki",
+    "prezime" : "Na",
+    "nacionalnost" : "CHN",
+    "email" : "kina@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6148eef31b5bc634a454b99c"),
+    "takmicenja" : [],
+    "username" : "kubavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Ku",
+    "prezime" : "Ba",
+    "nacionalnost" : "CUB",
+    "email" : "kuba@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6148ef1f1b5bc634a454b9a6"),
+    "takmicenja" : [],
+    "username" : "spanijavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Spa",
+    "prezime" : "Nija",
+    "nacionalnost" : "ESP",
+    "email" : "spanija@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6148ef451b5bc634a454b9b0"),
+    "takmicenja" : [],
+    "username" : "francuskavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Fra",
+    "prezime" : "Ncuska",
+    "nacionalnost" : "FRA",
+    "email" : "francuska@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6148ef901b5bc634a454b9ba"),
+    "takmicenja" : [],
+    "username" : "velikabritanijavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Velika",
+    "prezime" : "Britanija",
+    "nacionalnost" : "GBR",
+    "email" : "britanija@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6148efce1b5bc634a454b9c4"),
+    "takmicenja" : [],
+    "username" : "grckavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Gr",
+    "prezime" : "Cka",
+    "nacionalnost" : "GRE",
+    "email" : "grcka@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6148efeb1b5bc634a454b9ce"),
+    "takmicenja" : [],
+    "username" : "madjarskavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Madj",
+    "prezime" : "Arska",
+    "nacionalnost" : "HUN",
+    "email" : "madjarska@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6148f0041b5bc634a454b9d8"),
+    "takmicenja" : [],
+    "username" : "italijavodja",
+    "password" : "Vodja12#$",
+    "ime" : "It",
+    "prezime" : "Alija",
+    "nacionalnost" : "ITA",
+    "email" : "italija@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6148f0b41b5bc634a454b9e6"),
+    "takmicenja" : [],
+    "username" : "holandijavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Holan",
+    "prezime" : "Dija",
+    "nacionalnost" : "NED",
+    "email" : "holandija@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 0,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6148f0d51b5bc634a454b9f0"),
+    "takmicenja" : [],
+    "username" : "rusijavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Rus",
+    "prezime" : "Ija",
+    "nacionalnost" : "ROC",
+    "email" : "rusija@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 0,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6148f0f61b5bc634a454b9fa"),
+    "takmicenja" : [],
+    "username" : "amerikavodja",
+    "password" : "Vodja12#$",
+    "ime" : "Amer",
+    "prezime" : "Ika",
+    "nacionalnost" : "USA",
+    "email" : "amerika@gmail.com",
+    "tip" : "vodja",
+    "aktivan" : 0,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("614e37e591731c2ac8ce377f"),
+    "takmicenja" : [ 
+        "tenis singl muskarci station kyoto 16 igraca"
+    ],
+    "username" : "delegatyamada",
+    "password" : "Delegat12#$",
+    "ime" : "Yamada",
+    "prezime" : "Yamadic",
+    "nacionalnost" : "JPN",
+    "email" : "yamada@gmail.com",
+    "tip" : "delegat",
+    "aktivan" : 1,
+    "brTakmicenja" : 1,
+    "__v" : 0
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("614e380a91731c2ac8ce3786"),
+    "takmicenja" : [],
+    "username" : "delegatdzeimi",
+    "password" : "Delegat12#$",
+    "ime" : "Dzeimi",
+    "prezime" : "Oliver",
+    "nacionalnost" : "GBR",
+    "email" : "dzeimi@gmail.com",
+    "tip" : "delegat",
+    "aktivan" : 1,
+    "brTakmicenja" : 0,
+    "__v" : 0
+}

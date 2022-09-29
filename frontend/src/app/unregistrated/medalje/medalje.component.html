@@ -1,0 +1,58 @@
+<!-- <table> 
+    <tr class="boja">
+        <td>Rang: </td>
+        <td>Ime Zemlje: </td>
+        <td>Zlatnih: </td>
+        <td>Srebrnih: </td>
+        <td>Bronzanih: </td>
+        <td>Ukupno Medalja: </td>
+    </tr>
+    <tr *ngFor="let z of sveZemlje; let i = index" [class.boja]="i%2">
+        <td>{{i+1}}.</td>
+        <td>{{z.naziv}}</td>
+        <td>{{z.brZlatnih}}</td>
+        <td>{{z.brSrebrnih}}</td>
+        <td>{{z.brBronzanih}}</td>
+        <td>{{z.brUkupno}}</td>
+    </tr>
+</table> -->
+
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+  
+      <!-- Position Column -->
+      <ng-container matColumnDef="naziv">
+        <th mat-header-cell *matHeaderCellDef> Ime Zemlje: </th>
+        <td mat-cell *matCellDef="let element"> {{element.naziv}} </td>
+      </ng-container>
+  
+      <!-- Name Column -->
+      <ng-container matColumnDef="brZlatnih">
+        <th mat-header-cell *matHeaderCellDef> Zlatnih: </th>
+        <td mat-cell *matCellDef="let element"> {{element.brZlatnih}} </td>
+      </ng-container>
+  
+      <!-- Weight Column -->
+      <ng-container matColumnDef="brSrebrnih">
+        <th mat-header-cell *matHeaderCellDef> Srebrnih: </th>
+        <td mat-cell *matCellDef="let element"> {{element.brSrebrnih}} </td>
+      </ng-container>
+  
+      <!-- Symbol Column -->
+      <ng-container matColumnDef="brBronzanih">
+        <th mat-header-cell *matHeaderCellDef> Bronzanih: </th>
+        <td mat-cell *matCellDef="let element"> {{element.brBronzanih}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="brUkupno">
+        <th mat-header-cell *matHeaderCellDef> Ukupno Medalja: </th>
+        <td mat-cell *matCellDef="let element"> {{element.brUkupno}} </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+<mat-paginator [pageSizeOptions]="[10, 20, 50, 100]" 
+    aria-label="Select page of periodic elements">
+</mat-paginator>

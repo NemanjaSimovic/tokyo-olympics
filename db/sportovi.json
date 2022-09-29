@@ -1,0 +1,94 @@
+[{
+    "_id" : {
+        "$oid": "613f1faba90808ea0ca0e74a"
+    },
+    "ime" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje", 
+        "vsfdgsfsdgffg"
+    ]
+},
+{
+    "_id" : {
+        "$oid": "613f218aa90808ea0ca0e81d"
+    },
+    "ime" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km", 
+        "fasdfasdf", 
+        "fasdfasdfasdfasdfds", 
+        "nova1"
+    ]
+},
+{
+    "_id" : {
+        "$oid": "613f224aa90808ea0ca0e864"
+    },
+    "ime" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ]
+},
+{
+    "_id" : {
+        "$oid": "613f22aaa90808ea0ca0e875"
+    },
+    "ime" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj", 
+        "Nova", 
+        "nova"
+    ]
+},
+{
+    "_id" : {
+        "$oid": "6143ad32f5ae9bda7ce757a1"
+    },
+    "ime" : "tenis",
+    "discipline" : [ 
+        "singl", 
+        "dzeraks1", 
+        "dzeraks12"
+    ]
+},
+{
+    "_id" : {
+        "$oid": "6143b1b7aba07008409feba8"
+    },
+    "discipline" : [ 
+        "Nova Disciplna", 
+        "dzeraks", 
+        "dzeraks", 
+        "dzeraks1"
+    ],
+    "ime" : "bejzbol",
+    "__v" : 0
+},
+{
+    "_id" : {
+        "$oid": "6148e72c1b5bc634a454b8c9"
+    },
+    "discipline" : [],
+    "ime" : "",
+    "__v" : 0
+}]

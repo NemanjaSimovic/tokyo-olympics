@@ -1,0 +1,21 @@
+
+<div class="addDiscipl">
+
+    <div class="loginDeo2">
+      <h2>Ucitaj Sportiste u Sistem: </h2>
+    </div>
+    <hr style="height: 2px; background-color: blue; border: none;"/>
+    
+
+      <div class="loginDeo2">        
+        <input
+        style="display: none"
+        type="file" (change)="onFileChanged($event)"
+        #fileInput>
+        <button mat-raised-button  style="color: black;"(click)="fileInput.click()">Select File</button>
+      </div>
+      <div class="loginDeo2">  
+        <button mat-raised-button  style="background-color: green; color: white;" (click)="onUpload()">Upload!</button>
+      <div class="loginDeo">
+        
+</div>

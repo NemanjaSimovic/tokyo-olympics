@@ -1,0 +1,1450 @@
+[{
+    "_id" : {
+        "$oid": "613f1b54a90808ea0ca0e65d"
+    },
+    "imeIPrezime" : "Novak Djokovic",
+    "pol" : "m",
+    "nacionalnost" : "SRB",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "1",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 1,
+    "brBronzanih" : 0,
+    "brUkupno" : 1,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140af1aa90808ea0ca0f672"
+    },
+    "imeIPrezime" : "Millman John",
+    "pol" : "m",
+    "nacionalnost" : "AUS",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "16",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140afdda90808ea0ca0f6c4"
+    },
+    "imeIPrezime" : "Menezes Joao",
+    "pol" : "m",
+    "nacionalnost" : "BRA",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "15",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b299a90808ea0ca0f797"
+    },
+    "imeIPrezime" : "Auger Felix",
+    "pol" : "m",
+    "nacionalnost" : "CAN",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "14",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b2a8a90808ea0ca0f79e"
+    },
+    "imeIPrezime" : "Xen Li",
+    "pol" : "m",
+    "nacionalnost" : "CHN",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "13",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b442a90808ea0ca0f83e"
+    },
+    "imeIPrezime" : "Machac Tomas",
+    "pol" : "m",
+    "nacionalnost" : "CZE",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "12",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b497a90808ea0ca0f86c"
+    },
+    "imeIPrezime" : "Carreno Pablo",
+    "pol" : "m",
+    "nacionalnost" : "ESP",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "11",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b4d9a90808ea0ca0f890"
+    },
+    "imeIPrezime" : "Mahut Nikolas",
+    "pol" : "m",
+    "nacionalnost" : "FRA",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "10",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b526a90808ea0ca0f8c0"
+    },
+    "imeIPrezime" : "Murray Andy",
+    "pol" : "m",
+    "nacionalnost" : "GBR",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "9",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b55aa90808ea0ca0f8e4"
+    },
+    "imeIPrezime" : "Tsitsipas Stefanos",
+    "pol" : "m",
+    "nacionalnost" : "GRE",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "8",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b59fa90808ea0ca0f910"
+    },
+    "imeIPrezime" : "Fognini Fabio",
+    "pol" : "m",
+    "nacionalnost" : "ITA",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "7",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b5c0a90808ea0ca0f924"
+    },
+    "imeIPrezime" : "Sugita Yaichi",
+    "pol" : "m",
+    "nacionalnost" : "JPN",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "6",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b5f1a90808ea0ca0f940"
+    },
+    "imeIPrezime" : "Koolhof Wasley",
+    "pol" : "m",
+    "nacionalnost" : "NED",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "5",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b630a90808ea0ca0f96e"
+    },
+    "imeIPrezime" : "Daniel Marcus",
+    "pol" : "m",
+    "nacionalnost" : "NZL",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "4",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b68ea90808ea0ca0f9ae"
+    },
+    "imeIPrezime" : "Medvedev Danil",
+    "pol" : "m",
+    "nacionalnost" : "ROC",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "3",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b7f4a90808ea0ca0fa8c"
+    },
+    "imeIPrezime" : "Tiafoe Frances",
+    "pol" : "m",
+    "nacionalnost" : "USA",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "2",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b96ba90808ea0ca0fb84"
+    },
+    "imeIPrezime" : "Stojanovic Nina",
+    "pol" : "w",
+    "nacionalnost" : "SRB",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "1",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b98da90808ea0ca0fb9f"
+    },
+    "imeIPrezime" : "Sakari Maria",
+    "pol" : "w",
+    "nacionalnost" : "GRE",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "2",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b9a8a90808ea0ca0fbb1"
+    },
+    "imeIPrezime" : "Doi Misaki",
+    "pol" : "w",
+    "nacionalnost" : "JPN",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "3",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140b9e5a90808ea0ca0fbe7"
+    },
+    "imeIPrezime" : "Bertens Kiki",
+    "pol" : "w",
+    "nacionalnost" : "NED",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "4",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bb51a90808ea0ca0fcf6"
+    },
+    "imeIPrezime" : "Ana Carolina",
+    "pol" : "w",
+    "nacionalnost" : "BRA",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bc8ea90808ea0ca0fdc8"
+    },
+    "imeIPrezime" : "Basic Hana",
+    "pol" : "w",
+    "nacionalnost" : "AUS",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bcb7a90808ea0ca0fdda"
+    },
+    "imeIPrezime" : "Bingham Khamica",
+    "pol" : "w",
+    "nacionalnost" : "CAN",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bcf9a90808ea0ca0fdf8"
+    },
+    "imeIPrezime" : "Chen Jiamin",
+    "pol" : "w",
+    "nacionalnost" : "CHN",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bd2ea90808ea0ca0fe1d"
+    },
+    "imeIPrezime" : "Rose Mary",
+    "pol" : "w",
+    "nacionalnost" : "CUB",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bd56a90808ea0ca0fe2b"
+    },
+    "imeIPrezime" : "Hrochova Tereza",
+    "pol" : "w",
+    "nacionalnost" : "CZE",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bd86a90808ea0ca0fe40"
+    },
+    "imeIPrezime" : "Bestue Jael",
+    "pol" : "w",
+    "nacionalnost" : "ESP",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bdaca90808ea0ca0fe55"
+    },
+    "imeIPrezime" : "Asher Dina",
+    "pol" : "w",
+    "nacionalnost" : "GBR",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bde2a90808ea0ca0fe6a"
+    },
+    "imeIPrezime" : "Filitisakou Kiriaki",
+    "pol" : "w",
+    "nacionalnost" : "GRE",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140be11a90808ea0ca0fe81"
+    },
+    "imeIPrezime" : "Spanovic Ivana",
+    "pol" : "w",
+    "nacionalnost" : "SRB",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bfb1a90808ea0ca0ff2b"
+    },
+    "imeIPrezime" : "Kolasinac Asmir",
+    "pol" : "m",
+    "nacionalnost" : "SRB",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140bfe3a90808ea0ca0ff45"
+    },
+    "imeIPrezime" : "Allen Devon",
+    "pol" : "m",
+    "nacionalnost" : "USA",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c00ba90808ea0ca0ff54"
+    },
+    "imeIPrezime" : "Abraham Tadese",
+    "pol" : "m",
+    "nacionalnost" : "SUI",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c01ea90808ea0ca0ff5d"
+    },
+    "imeIPrezime" : "AMB Kim",
+    "pol" : "m",
+    "nacionalnost" : "SWE",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c046a90808ea0ca0ff6c"
+    },
+    "imeIPrezime" : "Gill Jacko",
+    "pol" : "m",
+    "nacionalnost" : "NZL",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c075a90808ea0ca0ff83"
+    },
+    "imeIPrezime" : "Abe Takotoshi",
+    "pol" : "m",
+    "nacionalnost" : "JPN",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c08ca90808ea0ca0ff8f"
+    },
+    "imeIPrezime" : "Aceti Vladimir",
+    "pol" : "m",
+    "nacionalnost" : "ITA",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c0c3a90808ea0ca0ffa0"
+    },
+    "imeIPrezime" : "Koroknai Mate",
+    "pol" : "m",
+    "nacionalnost" : "HUN",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c0f4a90808ea0ca0ffbe"
+    },
+    "imeIPrezime" : "Jirka Jan",
+    "pol" : "m",
+    "nacionalnost" : "CZE",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c10ea90808ea0ca0ffc9"
+    },
+    "imeIPrezime" : "Diaz Andi",
+    "pol" : "m",
+    "nacionalnost" : "CUB",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c1cfa90808ea0ca1002e"
+    },
+    "imeIPrezime" : "Matos Elisbet",
+    "pol" : "w",
+    "nacionalnost" : "CUB",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c245a90808ea0ca10065"
+    },
+    "imeIPrezime" : "Horska Kristyna",
+    "pol" : "w",
+    "nacionalnost" : "CZE",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c275a90808ea0ca10082"
+    },
+    "imeIPrezime" : "Belmonte Mireia",
+    "pol" : "w",
+    "nacionalnost" : "ESP",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c4d9a90808ea0ca10150"
+    },
+    "imeIPrezime" : "Fabre Margaux",
+    "pol" : "w",
+    "nacionalnost" : "FRA",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c4f9a90808ea0ca1015d"
+    },
+    "imeIPrezime" : "Anderson Freya",
+    "pol" : "w",
+    "nacionalnost" : "GBR",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c55ba90808ea0ca10181"
+    },
+    "imeIPrezime" : "Bruhn Annika",
+    "pol" : "w",
+    "nacionalnost" : "GER",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c585a90808ea0ca10192"
+    },
+    "imeIPrezime" : "Drakou Teodora",
+    "pol" : "w",
+    "nacionalnost" : "GRE",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c5bba90808ea0ca101b2"
+    },
+    "imeIPrezime" : "Burian Katalin",
+    "pol" : "w",
+    "nacionalnost" : "HUN",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c5f6a90808ea0ca101cd"
+    },
+    "imeIPrezime" : "Aoki Reona",
+    "pol" : "w",
+    "nacionalnost" : "JPN",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c616a90808ea0ca101dd"
+    },
+    "imeIPrezime" : "Crevar Anja",
+    "pol" : "w",
+    "nacionalnost" : "SRB",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c6e4a90808ea0ca1023f"
+    },
+    "imeIPrezime" : "Fraile Oman",
+    "pol" : "m",
+    "nacionalnost" : "ESP",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c718a90808ea0ca10252"
+    },
+    "imeIPrezime" : "Kukrle Michael",
+    "pol" : "m",
+    "nacionalnost" : "CZE",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c752a90808ea0ca1027d"
+    },
+    "imeIPrezime" : "Houle Hugo",
+    "pol" : "m",
+    "nacionalnost" : "CAN",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c775a90808ea0ca1028a"
+    },
+    "imeIPrezime" : "Porte Richie",
+    "pol" : "m",
+    "nacionalnost" : "AUS",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c79ca90808ea0ca102a1"
+    },
+    "imeIPrezime" : "Gaudu David",
+    "pol" : "m",
+    "nacionalnost" : "FRA",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c7b4a90808ea0ca102a9"
+    },
+    "imeIPrezime" : "Yates Adam",
+    "pol" : "m",
+    "nacionalnost" : "GBR",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c7cfa90808ea0ca102b6"
+    },
+    "imeIPrezime" : "Tsortsakis Polychronis",
+    "pol" : "m",
+    "nacionalnost" : "GRE",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c7f1a90808ea0ca102cf"
+    },
+    "imeIPrezime" : "Valter Attila",
+    "pol" : "m",
+    "nacionalnost" : "HUN",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c831a90808ea0ca102ee"
+    },
+    "imeIPrezime" : "Arashiro Yukiya",
+    "pol" : "m",
+    "nacionalnost" : "JPN",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c853a90808ea0ca102fa"
+    },
+    "imeIPrezime" : "Sivakov Pavel",
+    "pol" : "m",
+    "nacionalnost" : "ROC",
+    "sport" : "biciklizam",
+    "discipline" : [ 
+        "drumska trka 225km"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c901a90808ea0ca1034c"
+    },
+    "imeIPrezime" : "Bazarzhapov Glasan",
+    "pol" : "m",
+    "nacionalnost" : "ROC",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c965a90808ea0ca10395"
+    },
+    "imeIPrezime" : "Barnes David",
+    "pol" : "m",
+    "nacionalnost" : "AUS",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c9c1a90808ea0ca103ba"
+    },
+    "imeIPrezime" : "Castro Daniel",
+    "pol" : "m",
+    "nacionalnost" : "ESP",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140c9eca90808ea0ca103d3"
+    },
+    "imeIPrezime" : "Li Jialun",
+    "pol" : "m",
+    "nacionalnost" : "CHN",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140ca23a90808ea0ca103ed"
+    },
+    "imeIPrezime" : "Broeksma Gijs",
+    "pol" : "m",
+    "nacionalnost" : "NED",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140ca4ca90808ea0ca10409"
+    },
+    "imeIPrezime" : "Nesponi Mauro",
+    "pol" : "m",
+    "nacionalnost" : "ITA",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140ca8fa90808ea0ca1042a"
+    },
+    "imeIPrezime" : "Matyas Lazlo",
+    "pol" : "m",
+    "nacionalnost" : "HUN",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140cad9a90808ea0ca10458"
+    },
+    "imeIPrezime" : "Huston Patrick",
+    "pol" : "m",
+    "nacionalnost" : "GBR",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140caf5a90808ea0ca10462"
+    },
+    "imeIPrezime" : "Unruh Florian",
+    "pol" : "m",
+    "nacionalnost" : "GER",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "_id" : {
+        "$oid": "6140cb1ba90808ea0ca1047a"
+    },
+    "imeIPrezime" : "Thomas Chirault",
+    "pol" : "m",
+    "nacionalnost" : "FRA",
+    "sport" : "streljastvo",
+    "discipline" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib pistolj", 
+        "10m vazdusni pistolj"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+}]

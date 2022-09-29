@@ -1,0 +1,53 @@
+/* 1 */
+{
+    "_id" : ObjectId("614b1839f5ae9bda7ce80e22"),
+    "ime" : "stadion tokyo"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("614b1857f5ae9bda7ce80e3b"),
+    "ime" : "stadion saporo"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("614b1863f5ae9bda7ce80e42"),
+    "ime" : "stadion kyoto"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("614b186ef5ae9bda7ce80e49"),
+    "ime" : "bazen tokyo"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("614b1878f5ae9bda7ce80e4e"),
+    "ime" : "bazen saporo"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("614b1885f5ae9bda7ce80e55"),
+    "ime" : "bazen kyoto"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("614b1895f5ae9bda7ce80e5c"),
+    "ime" : "streljana saporo"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("614b189ff5ae9bda7ce80e61"),
+    "ime" : "streljana tokyo"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("614b18a9f5ae9bda7ce80e68"),
+    "ime" : "streljana kyoto"
+}

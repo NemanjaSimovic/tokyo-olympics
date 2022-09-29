@@ -1,0 +1,39 @@
+plivanje:
+"100m leptir" - "100m-400m trcanje ili plivanje" 
+"200m slobodno"- "100m-400m trcanje ili plivanje"
+atletika:
+"100m trcanje" - "100m-400m trcanje ili plivanje", 
+"200m trcanje" - "100m-400m trcanje ili plivanje", 
+"400m trcanje" - "100m-400m trcanje ili plivanje",
+
+"800m trcanje" - "800m-10000m trcanje", 
+"5000m trcanje" - "800m-10000m trcanje", 
+"10000m trcanje" - "800m-10000m trcanje",
+
+"maraton"  			- "20km trcanje ili brza setnja",
+"20km brzo hodanje" - "20km trcanje ili brza setnja", 
+"50km brzo hodanje"" - "20km trcanje ili brza setnja",
+
+"skok u vis" - 		"skokovi i izbacaji", 
+"skok u dalj" - 	"skokovi i izbacaji", 
+"troskok" - 		"skokovi i izbacaji", 
+"skok s motkom" - 	"skokovi i izbacaji", 
+"bacanje kugle" - 	"skokovi i izbacaji", 
+"bacanje diska" - 	"skokovi i izbacaji", 
+"bacanje kladiva" - "skokovi i izbacaji", 
+"bacanje koplja" - 	"skokovi i izbacaji",
+
+"drumska trka 225km" - "biciklizam velika trka"
+
+"50m trostav" - 			"streljastvo", 
+"10m vazdusna puska" - 		"streljastvo", 
+"25m malokalib. pistolj" - 	"streljastvo", 
+"10m vazdusni pistolj" - 	"streljastvo"
+
+dakle neohodne forme:
+1. "100m-400m trcanje ili plivanje"
+2. "800m-10000m trcanje"
+3. "20km trcanje ili brza setnja"
+4. "skokovi i izbacaji"
+5. "drumska trka 225km" // razlikuje se po tome sto svi ucestvuju u jednoj trci
+6.

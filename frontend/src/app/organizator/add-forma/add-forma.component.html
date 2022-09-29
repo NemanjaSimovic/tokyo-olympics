@@ -1,0 +1,84 @@
+<div class="addDiscipl">
+      <mat-card>
+        <div class="loginDeo2">
+          <h2>Unesi Formu: </h2>
+        </div>
+        <hr style="height: 2px; background-color: blue; border: none;"/>
+        <form (submit)="onAddForm(AddFormForm)" #AddFormForm="ngForm">
+          <div class="loginDeo2">  
+            <mat-form-field>
+              <input type="text" matInput ngModel #ime="ngModel" required name="ime" placeholder="Ime Forme" minlength="1">
+              <mat-error>Form Name Missing!</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="loginDeo2">
+            <mat-form-field appearance="fill">
+              <mat-label>Tip: </mat-label>
+              <mat-select matInput ngModel #tip="ngModel" required name="tip" (selectionChange)="onTipChange($event)">
+                <mat-option *ngFor="let s of sviTipoviForme" value="{{s.ime}}">{{s.ime}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="loginDeo2">  
+            <mat-form-field>
+              <input type="number" matInput ngModel #brRundi="ngModel" required name="brRundi" placeholder="Broj Rundi ili Pokusaja">
+              <mat-error>Broj rundi missing Missing!</mat-error>
+            </mat-form-field>
+          </div>
+
+          <div class="loginDeo2">  
+            <mat-form-field>
+              <input type="number" matInput ngModel #minIgraca="ngModel" required name="minIgraca" placeholder="Minimalan broj igraca: ">
+              <mat-error>Minimalan broj igraca missing Missing!</mat-error>
+            </mat-form-field>
+          </div>
+
+          <div class="loginDeo2">  
+            <mat-form-field>
+              <input type="number" matInput ngModel #maxIgraca="ngModel" required name="maxIgraca" placeholder="Maximalan broj igraca: ">
+              <mat-error>Maximalan broj igraca missing Missing!</mat-error>
+            </mat-form-field>
+          </div>
+
+          <div class="loginDeo2">
+            <mat-form-field appearance="fill" *ngIf="trka">
+              <mat-label>Da li je za ovu disciplinu neophodno brojanje stotinki? </mat-label>
+              <mat-select matInput ngModel #stotinke="ngModel" required name="stotinke">
+                <mat-option value="true">Da</mat-option>
+                <mat-option value="false">Ne</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="loginDeo2">
+            <mat-form-field appearance="fill" *ngIf="trka">
+              <mat-label>Da li je za ovu disciplinu neophodno brojanje minuta? </mat-label>
+              <mat-select matInput ngModel #minuti="ngModel" required name="minuti">
+                <mat-option value="true">Da</mat-option>
+                <mat-option value="false">Ne</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="loginDeo2">
+            <mat-form-field appearance="fill" *ngIf="trka">
+              <mat-label>Da li je za ovu disciplinu neophodno brojanje casova? </mat-label>
+              <mat-select matInput ngModel #casovi="ngModel" required name="casovi">
+                <mat-option value="true">Da</mat-option>
+                <mat-option value="false">Ne</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="loginDeo">
+            <br>      
+            <button mat-raised-button color="warn" type="submit">Dodaj Disciplinu</button>
+          </div>
+        </form>
+
+        <h3 class="message-error">{{message}}</h3>
+        <h3 class="message-success">{{message2}}</h3>
+
+      </mat-card>
+    </div>

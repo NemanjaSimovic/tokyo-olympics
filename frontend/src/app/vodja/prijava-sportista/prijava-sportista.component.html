@@ -1,0 +1,37 @@
+<div class="addDiscipl">
+    <mat-card>
+      <div class="loginDeo2">
+        <h2>Prijavi Sportistu za Takmicenje: </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+      <form (submit)="onPrijavaSportista(PrijavaSportistaForm)" #PrijavaSportistaForm="ngForm">
+
+        <div class="loginDeo2">
+          <mat-form-field appearance="fill">
+            <mat-label>Takmicenje: </mat-label>
+            <mat-select matInput ngModel #takmicenje="ngModel" required name="takmicenje" (selectionChange)="onSelectTakmicenje($event)">
+              <mat-option *ngFor="let s of svaTakmicenja" [value]="s">{{s.ime}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="loginDeo2">
+            <mat-form-field appearance="fill" *ngIf="pokaziSportiste">
+              <mat-label>Sportisti: </mat-label>
+              <mat-select matInput ngModel #imeIPrezime="ngModel" required name="imeIPrezime">
+                <mat-option *ngFor="let s of sviSportisti" value="{{s.imeIPrezime}}">{{s.imeIPrezime}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+        <div class="loginDeo">
+          <br>      
+          <button mat-raised-button color="warn" type="submit">Prijavi Sportistu</button>
+        </div>
+      </form>
+
+      <h3 class="message-error">{{message}}</h3>
+      <h3 class="message-success">{{message2}}</h3>
+
+    </mat-card>
+  </div>

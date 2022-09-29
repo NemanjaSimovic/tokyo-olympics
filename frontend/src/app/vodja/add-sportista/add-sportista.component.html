@@ -1,0 +1,58 @@
+<div class="addDiscipl">
+    <mat-card>
+      <div class="loginDeo2">
+        <h2>Unesi Sportistu U bazu podataka: </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+      <form (submit)="onAddSportista(AddSportistaForm)" #AddSportistaForm="ngForm">
+        <div class="loginDeo2">  
+          <mat-form-field>
+            <input type="text" matInput ngModel #imeIPrezime="ngModel" required name="imeIPrezime" placeholder="Ime I Prezime Sportiste" minlength="1">
+            <mat-error>Name and Surname Missing!</mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="loginDeo2">
+          <mat-form-field appearance="fill">
+            <mat-label>Pol: </mat-label>
+            <mat-select matInput ngModel #pol="ngModel" required name="pol" >
+              <mat-option value="m">Muski</mat-option>
+              <mat-option value="w">Zenski</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="loginDeo2">
+          <mat-form-field appearance="fill">
+            <mat-label>Sport: </mat-label>
+            <mat-select matInput ngModel #sport="ngModel" required name="sport" (selectionChange)="onSelectSport($event)">
+              <mat-option *ngFor="let s of sviSportovi" value="{{s.ime}}">{{s.ime}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="loginDeo2">
+            <mat-form-field appearance="fill" *ngIf="pokaziDiscipline">
+              <mat-label>Discipline: </mat-label>
+              <mat-select 
+                [(ngModel)]="odabraneDiscipline" 
+                (ngModelChange)="odabraneDiscipline" name="odabraneDiscipline" 
+                placeholder="Discipline" multiple>
+                <mat-option *ngFor="let d of disciplineSporta" [value]="d.naziv">
+                    {{d.naziv}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+        <div class="loginDeo">
+          <br>      
+          <button mat-raised-button color="warn" type="submit">Dodaj Disciplinu</button>
+        </div>
+      </form>
+
+      <h3 class="message-error">{{message}}</h3>
+      <h3 class="message-success">{{message2}}</h3>
+
+    </mat-card>
+  </div>

@@ -1,0 +1,15 @@
+<table> 
+    <tr class="boja">
+        <td>Korisnicko Ime: </td>
+        <td>Ime Korisnika: </td>
+        <td>Prezime Korisnika: </td>
+        <td>Odobri Zahtev:</td>
+    </tr>
+    <tr *ngFor="let k of korisnici; let i = index" [class.boja]="i%2">
+        <td>{{k.username}}</td>
+        <td>{{k.ime}}</td>
+        <td>{{k.prezime}}</td>
+        <td><button mat-raised-button style="background-color: green; color: white;" (click)="onApproveUser(k.username)">Odobri</button></td>
+    </tr>
+</table>
+<h3>{{message}}</h3>

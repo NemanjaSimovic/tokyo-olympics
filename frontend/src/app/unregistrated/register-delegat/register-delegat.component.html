@@ -1,0 +1,48 @@
+<div>
+    <mat-card>
+      <h2>Registracija Delegata Takmicenja</h2>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+      
+      <form (submit)="onRegister(registerForm)" #registerForm="ngForm">
+        <mat-form-field>
+          <input type="text" matInput ngModel #username="ngModel" required name="username" placeholder="Username" minlength="1">
+          <mat-error>Username missing</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input type="password" matInput ngModel #password="ngModel" required name="password" placeholder="Password" minlength="1" pattern="[a-zA-Z]*">
+          <mat-error>Password missing</mat-error>
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input type="text" matInput ngModel #ime="ngModel" required name="ime" placeholder="Ime" minlength="1">
+            <mat-error>Name missing</mat-error>
+        </mat-form-field>
+          
+        <mat-form-field>
+            <input type="text" matInput ngModel #prezime="ngModel" required name="prezime" placeholder="Prezime" minlength="1">
+            <mat-error>Surname missing</mat-error>
+        </mat-form-field>
+          
+        <mat-form-field>
+            <input type="text" matInput ngModel #email="ngModel" required name="email" placeholder="Email" minlength="1">
+            <mat-error>Email missing</mat-error>
+        </mat-form-field>
+
+        <div class="loginDeo2">
+          <mat-form-field appearance="fill">
+            <mat-label>Nacionalnost Delegata Takmicenja</mat-label>
+            <mat-select matInput ngModel #nacionalnost="ngModel" required name="nacionalnost">
+              <mat-option *ngFor="let z of sveZemlje" value="{{z.skraceno}}">{{z.naziv}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+      <h3 class="message-error">{{message}}</h3>
+      <h3 class="message-success">{{message2}}</h3>
+        <div class="loginDeo">
+          <br>      
+          <button mat-raised-button color="warn" type="submit">Register</button>
+        </div>
+      </form>
+    </mat-card>
+  </div>

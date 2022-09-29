@@ -1,0 +1,50 @@
+[
+{
+    "imeIPrezime" : "Ljupka Lazic",
+    "pol" : "w",
+    "nacionalnost" : "NED",
+    "sport" : "tenis",
+    "discipline" : [ 
+        "singl"
+    ],
+    "rang" : "5",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+}
+,
+{
+    "imeIPrezime" : "Ana Andjelic",
+    "pol" : "w",
+    "nacionalnost" : "SRB",
+    "sport" : "atletika",
+    "discipline" : [ 
+        "100m trcanje", 
+        "200m trcanje", 
+        "400m trcanje", 
+        "800m trcanje", 
+        "5000m trcanje", 
+        "10000m trcanje", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ],
+    "rang" : "",
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "prihvacen" : false
+},
+{
+    "imeIPrezime" : "Milica Milicic",
+    "pol" : "w",
+    "sport" : "plivanje",
+    "discipline" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ]
+}
+]

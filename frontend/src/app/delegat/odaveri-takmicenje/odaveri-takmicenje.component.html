@@ -1,0 +1,28 @@
+<div class="addDiscipl">
+    <mat-card>
+      <div class="loginDeo2">
+        <h2>Odaberi Takmicenje za unos rezultata: </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+      <form (submit)="onUnosVremena(UnosVremenaForm)" #UnosVremenaForm="ngForm">
+
+        <div class="loginDeo2">
+          <mat-form-field appearance="fill">
+            <mat-label>Takmicenje: </mat-label>
+            <mat-select matInput ngModel #takmicenje="ngModel" required name="takmicenje"  (selectionChange)="onSelectTakmicenje($event)">
+              <mat-option *ngFor="let s of svaTakmicenja"  [value]="s">{{s.ime}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+
+        <div class="loginDeo">
+          <br>      
+          <button mat-raised-button color="warn" type="submit">Unesi Rezultate</button>
+        </div>
+      </form>
+
+      <h3 class="message-error">{{message}}</h3>
+      <h3 class="message-success">{{message2}}</h3>
+
+    </mat-card>
+  </div>

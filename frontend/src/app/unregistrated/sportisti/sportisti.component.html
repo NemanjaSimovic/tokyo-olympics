@@ -1,0 +1,121 @@
+<!-- Forma za pretragu -->
+<div>
+  <mat-card>
+    <div class="loginDeo2">
+      <h2>Pretraga sportista</h2>
+    </div>
+    
+    <hr style="height: 2px; background-color: blue; border: none;"/>
+
+    <form (submit)="onGetSearchedSportisti(registerForm)" #registerForm="ngForm">
+      <div class="loginDeo2">
+        <mat-form-field>
+          <input type="text" matInput ngModel #imeIPrezime="ngModel" name="imeIPrezime" placeholder="ime i prezime">
+        </mat-form-field>
+      </div>
+
+      <div class="loginDeo2">
+        <mat-form-field appearance="fill">
+          <mat-label>Zemlja: </mat-label>
+          <mat-select matInput ngModel #odabranaZemlja="ngModel" name="odabranaZemlja">
+            <mat-option value="">Sve Zemlje</mat-option>
+            <mat-option *ngFor="let z of sveZemlje" value="{{z.skraceno}}">{{z.naziv}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      
+      <div class="loginDeo2">
+        <mat-form-field appearance="fill">
+          <mat-label>Sport: </mat-label>
+          <mat-select matInput ngModel #odabraniSport="ngModel" name="odabraniSport">
+            <mat-option value="">Svi Sportovi</mat-option>
+            <mat-option *ngFor="let s of sviSportovi" value="{{s.ime}}">{{s.ime}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="loginDeo2">
+        <mat-form-field appearance="fill">
+          <mat-label>Disciplina: </mat-label>
+          <mat-select matInput ngModel #odabranaDisciplina="ngModel"  name="odabranaDisciplina">
+            <mat-option value="">Sve Discipline</mat-option>
+            <mat-option *ngFor="let d of sveDiscipline" value="{{d.naziv}}">{{d.naziv}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="loginDeo2">
+        <mat-form-field appearance="fill">
+          <mat-label>Pol: </mat-label>
+          <mat-select matInput ngModel #odabraniPol="ngModel"  name="odabraniPol">
+            <mat-option value="">Svi Polovi</mat-option>
+            <mat-option value="m">m</mat-option>
+            <mat-option value="w">w</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="loginDeo2">
+        <mat-form-field appearance="fill">
+          <mat-label>Samo Osvajaci Medalja: </mat-label>
+          <mat-select matInput ngModel #samoOsvajaci="ngModel"  name="samoOsvajaci">
+            <mat-option value=0>NE</mat-option>
+            <mat-option value=1>DA</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="loginDeo">
+        <br>      
+        <button mat-raised-button color="warn" type="submit">Pretrazi</button>
+      </div>
+    </form>
+  </mat-card>
+</div>
+<!-- Kraj forme za pretragu -->
+
+<!-- Izlistani rezultati ukljucujuci i paginaciju -->
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+  
+      <!-- Position Column -->
+      <ng-container matColumnDef="pol">
+        <th mat-header-cell *matHeaderCellDef> Pol: </th>
+        <td mat-cell *matCellDef="let element"> {{element.pol}} </td>
+      </ng-container>
+  
+      <!-- Name Column -->
+      <ng-container matColumnDef="imeIPrezime">
+        <th mat-header-cell *matHeaderCellDef> Ime i Prezime: </th>
+        <td mat-cell *matCellDef="let element"> {{element.imeIPrezime}} </td>
+      </ng-container>
+  
+      <!-- Weight Column -->
+      <ng-container matColumnDef="nacionalnost">
+        <th mat-header-cell *matHeaderCellDef> Nacionalnost: </th>
+        <td mat-cell *matCellDef="let element"> {{element.nacionalnost}} </td>
+      </ng-container>
+  
+      <!-- Symbol Column -->
+      <ng-container matColumnDef="sport">
+        <th mat-header-cell *matHeaderCellDef> Sport: </th>
+        <td mat-cell *matCellDef="let element"> {{element.sport}} </td>
+      </ng-container>
+
+      <!-- <ng-container matColumnDef="discipline">
+        <th mat-header-cell *matHeaderCellDef> Discipline: </th>
+        <td mat-cell *matCellDef="let element"> {{element.discipline}} </td>
+      </ng-container> -->
+
+      <ng-container matColumnDef="brUkupno">
+        <th mat-header-cell *matHeaderCellDef> Ukupno Medalja: </th>
+        <td mat-cell *matCellDef="let element"> {{element.brUkupno}} </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+<mat-paginator [pageSizeOptions]="[10, 20, 50, 100]" 
+    aria-label="Select page of periodic elements">
+</mat-paginator>

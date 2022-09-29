@@ -1,0 +1,249 @@
+/* 1 */
+{
+    "_id" : ObjectId("613f1cf0a90808ea0ca0e6c6"),
+    "naziv" : "singl",
+    "sport" : "tenis",
+    "individualni" : true,
+    "takM" : true,
+    "takW" : true
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("613f1fdfa90808ea0ca0e75c"),
+    "naziv" : "100m trcanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : true
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("613f2052a90808ea0ca0e790"),
+    "naziv" : "200m trcanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("613f205aa90808ea0ca0e793"),
+    "naziv" : "400m trcanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("613f2061a90808ea0ca0e796"),
+    "naziv" : "800m trcanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("613f206fa90808ea0ca0e7a7"),
+    "naziv" : "5000m trcanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("613f2078a90808ea0ca0e7aa"),
+    "naziv" : "10000m trcanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("613f2087a90808ea0ca0e7b1"),
+    "naziv" : "skok u vis",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("613f209aa90808ea0ca0e7b4"),
+    "naziv" : "skok u dalj",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("613f20a3a90808ea0ca0e7b9"),
+    "naziv" : "troskok",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("613f20bda90808ea0ca0e7c0"),
+    "naziv" : "skok s motkom",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("613f20c9a90808ea0ca0e7c3"),
+    "naziv" : "bacanje kugle",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : true,
+    "takW" : false
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("613f20e3a90808ea0ca0e7d1"),
+    "naziv" : "bacanje diska",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("613f20eba90808ea0ca0e7d4"),
+    "naziv" : "bacanje kladiva",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("613f20f4a90808ea0ca0e7d9"),
+    "naziv" : "bacanje koplja",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("613f2100a90808ea0ca0e7de"),
+    "naziv" : "maraton",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : true
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("613f211aa90808ea0ca0e7e5"),
+    "naziv" : "20km brzo hodanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("613f2128a90808ea0ca0e7e8"),
+    "naziv" : "50km brzo hodanje",
+    "sport" : "atletika",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("613f22dfa90808ea0ca0e895"),
+    "naziv" : "drumska trka 225km",
+    "sport" : "biciklizam",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("613f230da90808ea0ca0e8ae"),
+    "naziv" : "100m leptir",
+    "sport" : "plivanje",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("613f231aa90808ea0ca0e8b1"),
+    "naziv" : "200m slobodno",
+    "sport" : "plivanje",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("613f2346a90808ea0ca0e8b9"),
+    "naziv" : "50m trostav",
+    "sport" : "streljastvo",
+    "individualni" : true,
+    "takM" : true,
+    "takW" : false
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("613f2358a90808ea0ca0e8be"),
+    "naziv" : "10m vazdusna puska",
+    "sport" : "streljastvo",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("613f2368a90808ea0ca0e8c3"),
+    "naziv" : "25m malokalib pistolj",
+    "sport" : "streljastvo",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("613f23ada90808ea0ca0e8ce"),
+    "naziv" : "10m vazdusni pistolj",
+    "sport" : "streljastvo",
+    "individualni" : true,
+    "takM" : false,
+    "takW" : false
+}

@@ -1,0 +1,44 @@
+<div class="addDiscipl">
+    <mat-card>
+      <div class="loginDeo2">
+        <h2>Unesi rezultate {{rundKurzor + 1}}. runde: </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+      <div class="loginDeo2">
+        <h2>Za Igraca {{sportiste[igrKurzor]}}</h2>
+      </div>
+      <form (submit)="onZavrsiRundu(zavrsiRunduForm)" #zavrsiRunduForm="ngForm">
+
+        <div class="loginDeo2">  
+            
+            <mat-form-field *ngIf="prikaziCasove">
+                <input min="0" max="23" type="number" matInput ngModel #casovi="ngModel" name="casovi" placeholder="Casove 1. igraca: ">
+                <mat-error>!</mat-error>
+            </mat-form-field>
+
+            <mat-form-field *ngIf="prikaziMinute">
+                <input min="0" max="59" type="number" matInput ngModel #minuti="ngModel" name="minuti" placeholder="Miute 1. igraca: ">
+                <mat-error>!</mat-error>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input min="0" max="59" type="number" matInput ngModel #sekunde="ngModel" name="sekunde" placeholder="sekunde 1. igraca: ">
+                <mat-error>!</mat-error>
+            </mat-form-field>
+
+            <mat-form-field *ngIf="prikaziStotinke">
+                <input min="0" max="99" type="number" matInput ngModel #stotinke="ngModel" name="stotinke" placeholder="Stotinke {{igrKurzor+1}} igraca: ">
+                <mat-error>!</mat-error>
+            </mat-form-field>
+        </div>
+
+        <div class="loginDeo">
+          <br>      
+          <button mat-raised-button color="warn" type="submit">Zavrsi Rundu</button>
+        </div>
+      </form>
+
+      <h2 class="message-success">{{message}}</h2>
+
+    </mat-card>
+  </div>

@@ -1,0 +1,27 @@
+/* 1 */
+{
+    "_id" : ObjectId("61484f703b72531764e7c34f"),
+    "ime" : "trka",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61484f8f3b72531764e7c354"),
+    "ime" : "daljina-visina",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61484fad3b72531764e7c359"),
+    "ime" : "streljastvo",
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61484fcb3b72531764e7c35e"),
+    "ime" : "1 na 1",
+    "__v" : 0
+}

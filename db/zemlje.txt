@@ -1,0 +1,293 @@
+/* 1 */
+{
+    "_id" : ObjectId("6139e0eda90808ea0ca0a0fd"),
+    "skraceno" : "SRB",
+    "naziv" : "Srbija",
+    "zastava" : "../../assets/img/zastave/SRB.png",
+    "brSportista" : 0,
+    "brZlatnih" : 3,
+    "brSrebrnih" : 1,
+    "brBronzanih" : 0,
+    "brUkupno" : 4,
+    "imaVodju" : true
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6139e16da90808ea0ca0a126"),
+    "skraceno" : "AUS",
+    "naziv" : "Australija",
+    "zastava" : "../../assets/img/zastave/AUS.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6139e189a90808ea0ca0a12b"),
+    "skraceno" : "BRA",
+    "naziv" : "Brazil",
+    "zastava" : "../../assets/img/zastave/BRA.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6139e1baa90808ea0ca0a13f"),
+    "skraceno" : "CAN",
+    "naziv" : "Kanada",
+    "zastava" : "../../assets/img/zastave/CAN.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6139e1c7a90808ea0ca0a144"),
+    "skraceno" : "CHN",
+    "naziv" : "Kina",
+    "zastava" : "../../assets/img/zastave/CHN.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6139e1e1a90808ea0ca0a14f"),
+    "skraceno" : "CUB",
+    "naziv" : "Kuba",
+    "zastava" : "../../assets/img/zastave/CUB.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6139e20ea90808ea0ca0a15a"),
+    "skraceno" : "CZE",
+    "naziv" : "Ceska",
+    "zastava" : "../../assets/img/zastave/CZE.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6139e228a90808ea0ca0a163"),
+    "skraceno" : "ESP",
+    "naziv" : "Spanija",
+    "zastava" : "../../assets/img/zastave/ESP.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6139e239a90808ea0ca0a168"),
+    "skraceno" : "FRA",
+    "naziv" : "Francuska",
+    "zastava" : "../../assets/img/zastave/FRA.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6139e269a90808ea0ca0a179"),
+    "skraceno" : "GBR",
+    "naziv" : "Velika Britanija",
+    "zastava" : "../../assets/img/zastave/GBR.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6139e277a90808ea0ca0a17e"),
+    "skraceno" : "GER",
+    "naziv" : "Nemacka",
+    "zastava" : "../../assets/img/zastave/GER.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : false
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6139e290a90808ea0ca0a185"),
+    "skraceno" : "GRE",
+    "naziv" : "Grcka",
+    "zastava" : "../../assets/img/zastave/GRE.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6139e2a8a90808ea0ca0a18e"),
+    "skraceno" : "HUN",
+    "naziv" : "Madjarska",
+    "zastava" : "../../assets/img/zastave/HUN.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6139e2bea90808ea0ca0a197"),
+    "skraceno" : "ITA",
+    "naziv" : "Italija",
+    "zastava" : "../../assets/img/zastave/ITA.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6139e2cea90808ea0ca0a19c"),
+    "skraceno" : "JPN",
+    "naziv" : "Japan",
+    "zastava" : "../../assets/img/zastave/JPN.png",
+    "brSportista" : 0,
+    "brZlatnih" : 1,
+    "brSrebrnih" : 3,
+    "brBronzanih" : 4,
+    "brUkupno" : 8,
+    "imaVodju" : true
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6139e2f9a90808ea0ca0a1a9"),
+    "skraceno" : "NED",
+    "naziv" : "Holandija",
+    "zastava" : "../../assets/img/zastave/NED.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6139e30ba90808ea0ca0a1ae"),
+    "skraceno" : "NZL",
+    "naziv" : "Novi Zeland",
+    "zastava" : "../../assets/img/zastave/NZL.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : false
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6139e323a90808ea0ca0a1b5"),
+    "skraceno" : "ROC",
+    "naziv" : "Rusija",
+    "zastava" : "../../assets/img/zastave/ROC.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6139e337a90808ea0ca0a1be"),
+    "skraceno" : "SUI",
+    "naziv" : "Svajcarska",
+    "zastava" : "../../assets/img/zastave/SUI.png",
+    "brSportista" : 0,
+    "brZlatnih" : 5,
+    "brSrebrnih" : 1,
+    "brBronzanih" : 1,
+    "brUkupno" : 7,
+    "imaVodju" : false
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6139e34ea90808ea0ca0a1c7"),
+    "skraceno" : "SWE",
+    "naziv" : "Svedska",
+    "zastava" : "../../assets/img/zastave/SWE.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : false
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6139e386a90808ea0ca0a1d8"),
+    "skraceno" : "USA",
+    "naziv" : "Amerika",
+    "zastava" : "../../assets/img/zastave/USA.png",
+    "brSportista" : 0,
+    "brZlatnih" : 0,
+    "brSrebrnih" : 0,
+    "brBronzanih" : 0,
+    "brUkupno" : 0,
+    "imaVodju" : true
+}

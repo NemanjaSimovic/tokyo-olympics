@@ -1,0 +1,177 @@
+[{
+    "_id" : {
+        "$oid": "614e3b9491731c2ac8ce37a8"
+    },
+    "sportisti" : [ 
+        "Ana Carolina", 
+        "Basic Hana", 
+        "Bingham Khamica", 
+        "Chen Jiamin", 
+        "Rose Mary", 
+        "Hrochova Tereza", 
+        "Bestue Jael", 
+        "Asher Dina"
+    ],
+    "ime" : "100m trcanje zene stadion tokyo 3 runde",
+    "format" : "100m-400m trcanje ili plivanje",
+    "pol" : "w",
+    "sport" : "atletika",
+    "disciplina" : "100m trcanje",
+    "pocetak" : "",
+    "kraj" : "",
+    "lokacija" : "stadion tokyo",
+    "delegat" : "delegatzoran",
+    "prvoMesto" : "",
+    "drugoMesto" : "",
+    "treceMesto" : "",
+    "formirano" : false,
+    "zavrseno" : false,
+    "__v" : 0
+},
+{
+    "_id" : {
+        "$oid": "614e3be691731c2ac8ce37b1"
+    },
+    "sportisti" : [ 
+        "Ana Carolina", 
+        "Basic Hana", 
+        "Bingham Khamica", 
+        "Chen Jiamin", 
+        "Rose Mary", 
+        "Hrochova Tereza", 
+        "Bestue Jael", 
+        "Asher Dina"
+    ],
+    "ime" : "maraton zene stadion tokyo 1 trka",
+    "format" : "20km trcanje ili brza setnja",
+    "pol" : "w",
+    "sport" : "atletika",
+    "disciplina" : "maraton",
+    "pocetak" : "",
+    "kraj" : "",
+    "lokacija" : "stadion tokyo",
+    "delegat" : "delegatzoran",
+    "prvoMesto" : "",
+    "drugoMesto" : "",
+    "treceMesto" : "",
+    "formirano" : false,
+    "zavrseno" : false,
+    "__v" : 0
+},
+{
+    "_id" : {
+        "$oid": "614e3c3191731c2ac8ce37bb"
+    },
+    "sportisti" : [ 
+        "Kolasinac Asmir", 
+        "Allen Devon", 
+        "Abraham Tadese", 
+        "AMB Kim", 
+        "Gill Jacko", 
+        "Abe Takotoshi"
+    ],
+    "ime" : "izbacaj kugle muskarci stadion tokyo 3 runde",
+    "format" : "skokovi i izbacaji",
+    "pol" : "m",
+    "sport" : "atletika",
+    "disciplina" : "bacanje kugle",
+    "pocetak" : "",
+    "kraj" : "",
+    "lokacija" : "stadion tokyo",
+    "delegat" : "delegatzoran",
+    "prvoMesto" : "",
+    "drugoMesto" : "",
+    "treceMesto" : "",
+    "formirano" : false,
+    "zavrseno" : false,
+    "__v" : 0
+},
+{
+    "_id" : {
+        "$oid": "614e3eb791731c2ac8ce37c4"
+    },
+    "sportisti" : [ 
+        "Bazarzhapov Glasan", 
+        "Barnes David", 
+        "Castro Daniel"
+    ],
+    "ime" : "streljastvo 50m trostav muskarci stadion tokyo 6 runde",
+    "format" : "streljastvo",
+    "pol" : "m",
+    "sport" : "streljastvo",
+    "disciplina" : "50m trostav",
+    "pocetak" : "",
+    "kraj" : "",
+    "lokacija" : "stadion saporo",
+    "delegat" : "delegatmakoto",
+    "prvoMesto" : "",
+    "drugoMesto" : "",
+    "treceMesto" : "",
+    "formirano" : false,
+    "zavrseno" : false,
+    "__v" : 0
+},
+{
+    "_id" : {
+        "$oid": "614e3f0d91731c2ac8ce37ce"
+    },
+    "sportisti" : [ 
+        "Stojanovic Nina", 
+        "Sakari Maria", 
+        "Doi Misaki", 
+        "Bertens Kiki"
+    ],
+    "ime" : "tenis singl zene station saporo 4 igraca",
+    "format" : "tenis singl 4 igraca",
+    "pol" : "w",
+    "sport" : "tenis",
+    "disciplina" : "singl",
+    "pocetak" : "",
+    "kraj" : "",
+    "lokacija" : "stadion saporo",
+    "delegat" : "delegatmakoto",
+    "prvoMesto" : "",
+    "drugoMesto" : "",
+    "treceMesto" : "",
+    "formirano" : false,
+    "zavrseno" : false,
+    "__v" : 0
+},
+{
+    "_id" : {
+        "$oid": "614e3f2791731c2ac8ce37d8"
+    },
+    "sportisti" : [ 
+        "Novak Djokovic", 
+        "Millman John", 
+        "Menezes Joao", 
+        "Auger Felix", 
+        "Xen Li", 
+        "Machac Tomas", 
+        "Carreno Pablo", 
+        "Mahut Nikolas", 
+        "Murray Andy", 
+        "Tsitsipas Stefanos", 
+        "Fognini Fabio", 
+        "Sugita Yaichi", 
+        "Koolhof Wasley", 
+        "Daniel Marcus", 
+        "Medvedev Danil", 
+        "Tiafoe Frances"
+    ],
+    "ime" : "tenis singl muskarci station kyoto 16 igraca",
+    "format" : "tenis singl 16 igraca",
+    "pol" : "m",
+    "sport" : "tenis",
+    "disciplina" : "singl",
+    "pocetak" : "",
+    "kraj" : "",
+    "lokacija" : "stadion kyoto",
+    "delegat" : "delegatyamada",
+    "prvoMesto" : "",
+    "drugoMesto" : "",
+    "treceMesto" : "",
+    "formirano" : false,
+    "zavrseno" : false,
+    "__v" : 0
+}]

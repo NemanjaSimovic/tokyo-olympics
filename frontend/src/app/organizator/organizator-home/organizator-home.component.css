@@ -1,0 +1,19 @@
+hr{
+    height: 2px;
+    background-color: blue;
+    border: none;
+}
+
+mat-card {
+    margin-left: 20%;
+    width: 60%;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}

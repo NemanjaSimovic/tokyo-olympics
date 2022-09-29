@@ -1,0 +1,31 @@
+<div class="addDiscipl">
+    <mat-card>
+      <div class="loginDeo2">
+        <h2 *ngIf="!dodatnaRunda">Unesi rezultate {{rundKurzor + 1}}. runde: </h2>
+        <h2 *ngIf="dodatnaRunda">Unesi rezultate dodatne runde: </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+      <div class="loginDeo2">
+        <h2 *ngIf="!dodatnaRunda">Za Igraca {{sportiste[igrKurzor]}}: </h2>
+        <h2 *ngIf="dodatnaRunda">Za Igraca {{sportiste[dodatniKurzor]}}: </h2>
+      </div>
+      <form (submit)="onZavrsiRundu(zavrsiRunduForm)" #zavrsiRunduForm="ngForm">
+
+        <div class="loginDeo2">  
+            
+            <mat-form-field>
+                <input min="0" type="number" matInput ngModel #brojPogodaka="ngModel" name="brojPogodaka" placeholder="Broj Pogodaka {{igrKurzor+1}}. igraca: ">
+                <mat-error>!</mat-error>
+            </mat-form-field>
+        </div>
+
+        <div class="loginDeo">
+          <br>      
+          <button mat-raised-button color="warn" type="submit">Zavrsi Rundu</button>
+        </div>
+      </form>
+
+      <h2 class="message-success">{{message}}</h2>
+
+    </mat-card>
+  </div>

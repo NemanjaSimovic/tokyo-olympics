@@ -1,0 +1,21 @@
+mat-form-field {
+    width: 100%;
+  }
+  
+.message-error {
+color: red;
+}
+
+button {
+margin-top: 0.5rem;
+margin-left: 0.5rem;
+}
+  
+.loginDeo {
+  display: flex;
+  justify-content: center;
+}
+
+mat-radio-button{
+  margin-right: 1rem;
+}

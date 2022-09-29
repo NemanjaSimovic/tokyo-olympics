@@ -1,0 +1,125 @@
+/* 1 */
+{
+    "_id" : ObjectId("6147b39198649827e4fc39fa"),
+    "ime" : "100m-400m trcanje ili plivanje",
+    "tip" : "trka",
+    "minIgraca" : 8,
+    "maxIgraca" : 8,
+    "brRundi" : 3,
+    "stotinke" : true,
+    "minuti" : false,
+    "casovi" : false,
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6147b42998649827e4fc39ff"),
+    "ime" : "800m-10000m trcanje",
+    "tip" : "trka",
+    "minIgraca" : 8,
+    "maxIgraca" : 8,
+    "brRundi" : 2,
+    "stotinke" : true,
+    "minuti" : true,
+    "casovi" : false,
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6147b4a498649827e4fc3a04"),
+    "ime" : "20km trcanje ili brza setnja",
+    "tip" : "trka",
+    "minIgraca" : 8,
+    "maxIgraca" : 8,
+    "brRundi" : 1,
+    "stotinke" : false,
+    "minuti" : true,
+    "casovi" : true,
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6147b51198649827e4fc3a09"),
+    "ime" : "skokovi i izbacaji",
+    "tip" : "daljina-visina",
+    "minIgraca" : 2,
+    "maxIgraca" : 8,
+    "brRundi" : 3,
+    "stotinke" : false,
+    "minuti" : false,
+    "casovi" : false,
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6147b55a98649827e4fc3a0e"),
+    "ime" : "biciklizam velika trka",
+    "tip" : "trka",
+    "minIgraca" : 2,
+    "maxIgraca" : 8,
+    "brRundi" : 1,
+    "stotinke" : false,
+    "minuti" : true,
+    "casovi" : true,
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6147b6b498649827e4fc3a13"),
+    "ime" : "streljastvo",
+    "tip" : "streljastvo",
+    "minIgraca" : 2,
+    "maxIgraca" : 8,
+    "brRundi" : 6,
+    "stotinke" : false,
+    "minuti" : false,
+    "casovi" : false,
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6147b71d98649827e4fc3a18"),
+    "ime" : "tenis singl 4 igraca",
+    "tip" : "1 na 1",
+    "minIgraca" : 4,
+    "maxIgraca" : 4,
+    "brRundi" : 1,
+    "stotinke" : false,
+    "minuti" : false,
+    "casovi" : false,
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6148e19457e8c60e58fa632c"),
+    "ime" : "tenis singl 16 igraca",
+    "tip" : "1 na 1",
+    "minIgraca" : 16,
+    "maxIgraca" : 16,
+    "brRundi" : 1,
+    "stotinke" : false,
+    "minuti" : false,
+    "casovi" : false,
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6148e1da57e8c60e58fa6331"),
+    "ime" : "tenis singl 8 igraca",
+    "tip" : "1 na 1",
+    "minIgraca" : 8,
+    "maxIgraca" : 8,
+    "brRundi" : 1,
+    "stotinke" : false,
+    "minuti" : false,
+    "casovi" : false,
+    "__v" : 0
+}

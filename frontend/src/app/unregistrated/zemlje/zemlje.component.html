@@ -1,0 +1,42 @@
+<!-- <table> 
+    <tr class="boja">
+        <td>Zastava: </td>
+        <td>Ime Zemlje: </td>
+        <td>Broj Sportista: </td>
+    </tr>
+    <tr *ngFor="let z of sveZemlje; let i = index" [class.boja]="i%2">
+        <td><img src="{{z.zastava}}" /></td>
+        <td>{{z.naziv}}</td>
+        <td>{{z.brSportista}}</td>
+    </tr>
+</table> -->
+
+
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+  
+      <!-- Position Column -->
+      <ng-container matColumnDef="zastava">
+        <th mat-header-cell *matHeaderCellDef> Zastava: </th>
+        <td mat-cell *matCellDef="let element"><img src="{{element.zastava}}"/> </td>
+      </ng-container>
+  
+      <!-- Name Column -->
+      <ng-container matColumnDef="naziv">
+        <th mat-header-cell *matHeaderCellDef> Ime Zemlje: </th>
+        <td mat-cell *matCellDef="let element"> {{element.naziv}} </td>
+      </ng-container>
+  
+      <!-- Weight Column -->
+      <ng-container matColumnDef="brSportista">
+        <th mat-header-cell *matHeaderCellDef> Broj Sportista: </th>
+        <td mat-cell *matCellDef="let element"> {{element.brSportista}} </td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+<mat-paginator [pageSizeOptions]="[10, 20, 50, 100]" 
+    aria-label="Select page of periodic elements">
+</mat-paginator>

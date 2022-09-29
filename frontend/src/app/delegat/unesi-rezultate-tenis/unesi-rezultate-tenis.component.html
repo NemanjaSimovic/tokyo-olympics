@@ -1,0 +1,56 @@
+<div class="addDiscipl">
+  <mat-card>
+    <div class="loginDeo2">
+      <h2>Unesi rezultate meca: </h2>
+    </div>
+    <hr style="height: 2px; background-color: blue; border: none;"/>
+
+    <div *ngIf="!treceCetvrto && !finale">
+      <div class="loginDeo2">
+        <h2>U toku je {{kolo}}. kolo </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+    </div>
+
+    <div *ngIf="treceCetvrto">
+      <div class="loginDeo2">
+        <h2>Borba za trece mesto </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+    </div>
+
+    <div *ngIf="finale">
+      <div class="loginDeo2">
+        <h2>Finale! </h2>
+      </div>
+      <hr style="height: 2px; background-color: blue; border: none;"/>
+    </div>
+
+    <div class="loginDeo2">
+      <h2>{{prviSportista}} ---- {{drugiSportista}}</h2>
+    </div>
+    <form (submit)="onZavrsiRundu(zavrsiRunduForm)" #zavrsiRunduForm="ngForm">
+
+      <div class="loginDeo2">  
+          
+          <mat-form-field>
+              <input min="0" max="2" type="number" matInput ngModel #brojSetovaPrvi="ngModel" name="brojSetovaPrvi" placeholder="brojSetovaPrvi">
+              <mat-error>!</mat-error>
+          </mat-form-field>
+
+          <mat-form-field>
+              <input min="0" max="2" type="number" matInput ngModel #brojSetovaDrugi="ngModel" name="brojSetovaDrugi" placeholder="brojSetovaDrugi">
+              <mat-error>!</mat-error>
+          </mat-form-field>
+      </div>
+
+      <div class="loginDeo">
+        <br>      
+        <button mat-raised-button color="warn" type="submit">Zavrsi Match</button>
+      </div>
+    </form>
+
+    <h2 class="message-success">{{message}}</h2>
+
+  </mat-card>
+</div>

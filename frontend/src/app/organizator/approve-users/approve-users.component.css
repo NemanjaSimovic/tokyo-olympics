@@ -1,0 +1,21 @@
+.boja{
+    background-color: lightskyblue;
+    /* background-color: cornflowerblue; */
+}
+table{
+    margin-left: 10%;
+    width: 80%;
+    /* border: black 1px solid; */
+}
+table, td{
+    padding: 0.5rem;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+h3{
+    margin-left: 10%;
+    width: 80%;
+    color: green;
+    background-color: white;
+}
