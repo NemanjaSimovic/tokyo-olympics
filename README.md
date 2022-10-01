@@ -8,6 +8,7 @@ Run in "frontend" folder
 ### Server:
 Run in "backend" folder
 - npm install
+- npm install mongoose
 - tsc (compiles typescript)
 ### Database:
 MongoDB is being used for this project
